@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Pansare - Personal Biography</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Yash Pansare</h1>
+        <p>Python Developer | Technology Enthusiast</p>
+    </header>
+
+    <section>
+        <h2>Early Life</h2>
+        <p>I was born and raised in Pune, India. From a young age, I had a deep interest in technology and computers, which eventually led me to pursue a career in software development.</p>
+    </section>
+
+    <section>
+        <h2>Career</h2>
+        <p>Currently, I am working as a Python Developer intern at Megaminds IT Services, where I am involved in several exciting projects. My journey into the tech world began during my college days, where I developed a passion for programming and web development.</p>
+    </section>
+
+    <section>
+        <h2>Achievements</h2>
+        <p>Some of my notable achievements include developing a freelance platform for blue-collar workers, participating in hackathons, and contributing to open-source projects.</p>
+    </section>
+
+    <section>
+        <h2>Links</h2>
+        <p>Here are some links to my professional profiles and projects:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/rohit-kshirsagar" target="_blank">LinkedIn Profile</a></li>
+            <li><a href="https://github.com/rohitkshirsagar" target="_blank">GitHub Repository</a></li>
+            <li><a href="https://portfolio.rohitkshirsagar.com" target="_blank">Personal Portfolio</a></li>
+        </ul>
+    </section>
+</body>
+</html>
+
+
+Styles.css:
+
+/* Basic reset to ensure consistent styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #7f8c8d;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    font-size: 1.8rem;
+    color: #2980b9;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1rem;
+    color: #34495e;
+    margin-bottom: 10px;
+}
+
+/* Links styling */
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    color: #e74c3c;
+}

@@ -1,0 +1,15 @@
+#FLASK APPLICATION
+
+from flask import Flask
+
+# Create a Flask app instance
+assignment_10 = Flask(__name__)
+
+# Define a route that captures the 'name' variable from the URL
+@assignment_10.route('/hello/<name>')
+def hello_name(name):
+    return f"Hello, {name}! Welcome to our Flask application."
+
+# Run the app
+if __name__ == '__main__':
+    assignment_10.run(debug=True)
